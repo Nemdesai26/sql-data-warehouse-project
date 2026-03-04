@@ -30,7 +30,9 @@ This project demonstrates practical skills in:
 
 # 🏗️ Data Architecture
 
-This project follows the **Medallion Architecture**, which organizes data into three layers for improved reliability, scalability, and analytical usability.
+The project follows the **Medallion Architecture (Bronze → Silver → Gold)** to structure the data warehouse.
+
+![Data Architecture](docs/Architecture.png)
 
 ## Bronze Layer – Raw Data
 
